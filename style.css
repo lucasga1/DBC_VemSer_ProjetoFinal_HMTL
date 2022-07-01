@@ -52,3 +52,48 @@ footer nav ul li {
     display: grid;
     grid-template-columns: auto;
 } 
+
+
+
+/* MAIN */
+main, html, body {
+    background-color: #F7F9FB;
+    width: 100%;
+}
+
+main{
+    display: flex;
+}
+
+.container-flex{
+    display: flex;
+    margin: 30px auto;
+}
+
+.coluna-1{ 
+    width: 70%;
+}
+
+.coluna-2{ 
+    width: 30%;
+}
+
+.coluna-1 div, .coluna-2 div{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    padding: 15px;
+}
+
+.education-text {
+    flex-direction: column;
+}
+
+.display-flex-row{
+    flex-direction: row;
+}
+
+.display-flex-column{
+    flex-direction: column;
+}
+/* MAIN */
