@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body {
-    font-family: 'Gotham Pro Light', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 strong {
@@ -67,7 +67,11 @@ header>div>div {
     align-items: center;
 }
 
-.header-logo, img, .nav-user-perfil, .footer-logo span, .footer-logo p {
+.header-logo,
+img,
+.nav-user-perfil,
+.footer-logo span,
+.footer-logo p {
     cursor: pointer;
 }
 
@@ -90,7 +94,7 @@ header nav ul li {
 }
 
 header nav ul li img {
-    margin-bottom: 12px; 
+    margin-bottom: 12px;
 }
 
 header nav ul li a {
@@ -119,7 +123,7 @@ header input::placeholder {
 .nav-user-perfil {
     width: 330px;
     height: 80px;
-    display: flex;      
+    display: flex;
 }
 
 .nav-user-perfil span {
@@ -141,7 +145,8 @@ header input::placeholder {
 .nav-user-perfil>span>h3>p {
     margin: 0;
     padding-left: 10px;
-    color:  rgba(24, 24, 24, 0.2);;
+    color: rgba(24, 24, 24, 0.2);
+    ;
 }
 
 .nav-user-perfil>span>p::after {
@@ -169,19 +174,152 @@ main,
 html,
 body {
     background-color: #F7F9FB;
-    width: 100%;
+
 }
 
 main {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.container-flex {
+
+/* SECTION CAPA HOME */
+.section-capa-home {
+    background-color: #ffffff;
+    width: 850px;
+    height: 360px;
     display: flex;
-    margin: 30px auto;
+    flex-direction: column;
+    margin-top: 40px;
 }
 
-.coluna-1 {
+.section-capa-home>div {
+    display: flex;
+    align-items: center;
+}
+
+.section-capa-home>div>img {
+    margin-top: -20px;
+    margin-left: 25px;
+    border-radius: 100%;
+}
+
+.section-capa-home>div>div h3 {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 8px 15px 25px;
+}
+
+.section-capa-home>div>div p {
+    padding: 0 25px;
+}
+
+.section-capa-home>div>div>div {
+    display: flex;
+    padding: 15px 25px;
+}
+
+.section-capa-home>div>div>div button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+/* SECTION CAPA HOME */
+
+
+
+/* SECTION ABOUT */
+/* ABAS */
+
+.section-about-aba {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.aba-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffff;
+    background: linear-gradient(180deg, #0077B5 0%, #0E6795 100%);
+    width: 240px;
+    height: 50px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.aba-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #181818;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #ffffff;
+    border: 1px solid #E7E7E7;    
+    width: 240px;
+    height: 40px;
+}
+
+.aba-3 {
+    border-top-right-radius: 4px;
+}
+
+/* ABAS */
+.section-about {
+    background-color: #ffffff;
+    width: 850px;
+    height: 200px;
+}
+
+.section-about h3 {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 60px 0px 15px 30px;
+}
+
+.section-about p {
+    font-size: 14px;
+    padding: 0px 0px 20px 30px;
+}
+
+.section-about a {
+    padding: 0px 0px 35px 30px;
+
+}
+/* SECTION ABOUT */
+
+/* EXPERIENCE */
+.section.experience {
+    width: 850px;
+    height: 345px;
+}
+
+/* EXPERIENCE */
+
+/* SECTION EDUCATION */
+.section-education {
+    width: 850px;
+    height: 195px;
+}
+
+/* SECTION EDUCATION */
+
+/* DASHBOARD */
+.section-dashboard {
+    width: 290px;
+    height: 360px;
+}
+
+/* DASHBOARD */
+
+
+/* .coluna-1 {
     width: 70%;
 }
 
@@ -190,18 +328,14 @@ main {
 }
 
 .coluna-1 div,
-.coluna-2 div {
-    width: 94%;
+.coluna-2 div {    
     background-color: white;
-    display: flex;
-    padding: 2%;
-    margin: 1%;
     margin-top: 0;
     font-size: 14px;
     line-height: 30px;
     border-radius: 4px;
 }
-
+ */
 .text {
     flex-direction: column;
 }
@@ -215,9 +349,15 @@ main {
     flex-direction: column;
 }
 
-h3.section-titulo {
+.section-titulo h3 {
     font-size: 18px !important;
     font-weight: 600;
+}
+
+.section-about {
+    width: 850px;
+    height: 200px;
+
 }
 
 .section p,
@@ -249,6 +389,7 @@ hr {
     font-weight: 600;
     color: #0275B1;
 }
+
 
 /* MAIN */
 /* FOOTER */
