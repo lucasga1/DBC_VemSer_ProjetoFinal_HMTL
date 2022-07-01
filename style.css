@@ -67,8 +67,18 @@ header>div>div {
     align-items: center;
 }
 
+.header-logo, img, .nav-user-perfil, .footer-logo span, .footer-logo p {
+    cursor: pointer;
+}
+
 .header-logo {
     padding: 20px 40px;
+    border-right: 1px solid #f4f4f4;
+}
+
+.header-border {
+    border-left: 1px solid #f4f4f4;
+    border-right: 1px solid #f4f4f4;
 }
 
 header nav ul li {
@@ -79,13 +89,8 @@ header nav ul li {
     padding: 0 20px;
 }
 
-header nav {    
-    border-left: 1px solid #f4f4f4;
-    border-right: 1px solid #f4f4f4;
-}
-
 header nav ul li img {
-    margin-bottom: 14px;
+    margin-bottom: 12px; 
 }
 
 header nav ul li a {
@@ -114,7 +119,7 @@ header input::placeholder {
 .nav-user-perfil {
     width: 330px;
     height: 80px;
-    display: flex;    
+    display: flex;      
 }
 
 .nav-user-perfil span {
@@ -136,6 +141,7 @@ header input::placeholder {
 .nav-user-perfil>span>h3>p {
     margin: 0;
     padding-left: 10px;
+    color:  rgba(24, 24, 24, 0.2);;
 }
 
 .nav-user-perfil>span>p::after {
@@ -248,7 +254,6 @@ hr {
 /* FOOTER */
 footer {
     background-color: #F7F9FB;
-    border: 1px solid #02B033;
 }
 
 footer>div {
