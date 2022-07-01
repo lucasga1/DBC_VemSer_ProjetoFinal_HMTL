@@ -11,11 +11,22 @@ body {
 
 /* HEADER */
 header>div {
-    background-color: rgba(203, 203, 203, 0.556);
     width: 1440px;
     height: 80px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    justify-content: space-between;
+}
+
+header>div>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header>nav {
+    width: 450px;
+    padding: 0 20px;
+    display: flex;
 }
 
 header nav ul li {
@@ -23,12 +34,66 @@ header nav ul li {
 }
 
 header input {
-    height: 54px;
+    width: 367px;
+    height: 78px;
     margin: auto 0;
     border-top: 0;
     border-bottom: 0;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
+    border-left: 1px solid #f4f4f4;
+    border-right: 1px solid #f4f4f4;
+}
+
+header input::placeholder {
+    color: #CECECE;
+    font-size: 16px;
+    padding-left: 74px;
+}
+
+.perfil {
+    width: 330px;
+    height: 80px;
+    display: flex;
+    border-right: 1px solid #f4f4f4;
+}
+
+.perfil span {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.perfil p {
+    margin-top: 11px;
+    font-weight: 300;
+}
+
+.perfil>span>h3 {
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+}
+
+.perfil>span>h3>p {
+    margin: 0;
+    padding-left: 10px;
+}
+
+.perfil>span>p::after {
+    content: '';
+    display: inline-block;
+    background: no-repeat center url(./images/32.png);
+    background-size: contain;
+    width: 12px;
+    height: 12px;
+    margin-left: 4px;
+}
+
+.perfil a {
+    color: #02B033;
+    font-weight: 800;
+}
+
+.perfil img {
+    margin: 20px 20px;
 }
 
 /* FOOTER */
@@ -102,3 +167,4 @@ h4{
     font-size: 18px;
 }
 /* MAIN */
+
