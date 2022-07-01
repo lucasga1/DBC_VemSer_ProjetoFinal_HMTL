@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gotham Pro Light', sans-serif;
+}
+
+strong {
+    font-weight: 600;
 }
 
 .container {
@@ -143,28 +147,65 @@ main{
     width: 30%;
 }
 
-.coluna-1 div, .coluna-2 div{
-    width: 100%;
+.coluna-1 div, .coluna-2 div {
+    width: 94%;
     background-color: white;
     display: flex;
-    padding: 15px;
+    padding: 2%;
+    margin: 1%;
+    margin-top: 0;
+    font-size: 14px;
+    line-height: 30px;
+    border-radius: 4px;
 }
 
-.education-text {
+.text {
     flex-direction: column;
 }
 
 .display-flex-row{
     flex-direction: row;
+    align-items: center;
 }
 
 .display-flex-column{
     flex-direction: column;
 }
 
-h4{
+h3.section-titulo{
+    font-size: 18px !important;
     font-weight: 600;
-    font-size: 18px;
 }
+
+.section p, .section span,  .section label{
+    font-size: 13px !important;
+}
+
+.section strong{
+    font-size: 15px !important;
+}
+
+.coluna-2 {
+    min-width: 290px;
+}
+.coluna-1 {
+    min-width: 850px;
+}
+
+hr{
+    box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 1%);
+    width: 94%;
+    border-top: 1px;
+}
+
+.link{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #0275B1;
+}
+
+
+
+
 /* MAIN */
 
