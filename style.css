@@ -31,9 +31,6 @@ header>nav {
 
 header nav ul li {
     display: inline;
-    background-color: #02B033;
-    width: 90px;
-    height: 80px;
 }
 
 header input {
