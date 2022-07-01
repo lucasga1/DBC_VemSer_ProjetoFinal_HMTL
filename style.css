@@ -191,7 +191,7 @@ main {
     height: 360px;
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+
 }
 
 .section-capa-home>div {
@@ -211,6 +211,12 @@ main {
     padding: 15px 8px 15px 25px;
 }
 
+.section-capa-home>div>div>h3 a {
+    padding-left: 190px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
 .section-capa-home>div>div p {
     padding: 0 25px;
 }
@@ -228,8 +234,6 @@ main {
 }
 
 /* SECTION CAPA HOME */
-
-
 
 /* SECTION ABOUT */
 /* ABAS */
@@ -261,7 +265,7 @@ main {
     font-size: 12px;
     font-weight: 500;
     background-color: #ffffff;
-    border: 1px solid #E7E7E7;    
+    border: 1px solid #E7E7E7;
     width: 240px;
     height: 40px;
 }
@@ -285,14 +289,101 @@ main {
 
 .section-about p {
     font-size: 14px;
-    padding: 0px 0px 20px 30px;
+    padding: 0px 30px 20px 30px;
 }
 
 .section-about a {
     padding: 0px 0px 35px 30px;
-
 }
+
 /* SECTION ABOUT */
+
+/* SECTION PROJECTS */
+.section-projects {
+    background-color: #ffffff;
+    width: 850px;
+    height: 355px;
+    margin-top: 20px;
+}
+
+.section-projects h3,
+.section-skill h3,
+.section-experience h3,
+.section-education h3 {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 30px 0px 25px 30px;
+}
+
+.section-projects>h3 a {
+    padding-left: 15px;
+    font-weight: 500;
+    color: #747474;
+}
+
+.section-projects>div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+.section-projects>div>div>h4 {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 0px 5px 0px;
+}
+
+.section-projects>div>div a {
+    font-size: 10px;
+    color: #181818;
+}
+
+.section-projects a,
+.section-skill a {
+    margin: 25px 0px 30px 0px;
+}
+
+/* SECTION PROJECTS */
+
+/* SECTION SKILLS */
+
+.section-skill {
+    background-color: #ffffff;
+    width: 850px;
+    height: 220px;
+    margin-top: 20px;
+}
+
+.section-skill>div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+.section-skill>div>div {
+    width: 250px;
+    height: 80px;
+    background: #FFFFFF;
+    border: 1px solid #F4F4F4;
+    border-radius: 6px;
+}
+
+.section-skill>div>div h4 {
+    padding: 14px 0px 5px 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.section-skill>div>div>h4 a {
+    padding-left: 50px;
+    color: #0275B1;
+}
+
+.section-skill>div>div img {
+    padding-left: 20px;
+}
+
+/* SECTION SKILLS */
 
 /* EXPERIENCE */
 .section.experience {
@@ -301,22 +392,185 @@ main {
 }
 
 /* EXPERIENCE */
+.section-experience {
+    background-color: #ffffff;
+    width: 850px;
+    height: 345px;
+    margin-top: 20px;
+}
+
+.section-experience>div {
+    display: flex;
+    padding: 0px 30px;
+}
+
+.section-experience>div>div h4,
+.section-education>div h4 {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0px 0px 10px 16px;
+}
+
+.exp-text1,
+.section-education>div p {
+    font-size: 10px;
+    font-weight: 500;
+    padding: 0px 0px 5px 16px;
+}
+
+.exp-text1 a {
+    padding-left: 10px;
+    font-weight: 200;
+}
+
+.exp-text2,
+.section-education>div a {
+    font-size: 10px;
+    padding: 5px 0px 5px 16px;
+}
+
+.exp-text2 a {
+    padding-left: 10px;
+    font-weight: 600;
+    color: #0275B1;
+}
+
+.exp-text3 {
+    font-size: 10px;
+    font-weight: 500;
+    padding: 5px 0px 5px 16px;
+    line-height: 15px;
+}
 
 /* SECTION EDUCATION */
 .section-education {
+    background-color: #ffffff;
     width: 850px;
     height: 195px;
+    margin-top: 20px;
+}
+
+.section-education>div {
+    display: flex;
+    padding: 0 30px;
 }
 
 /* SECTION EDUCATION */
 
-/* DASHBOARD */
-.section-dashboard {
-    width: 290px;
-    height: 360px;
+.grid {
+    width: 1180px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 40px;
+    margin-top: 40px;
 }
 
 /* DASHBOARD */
+.section-dashboard {
+    background-color: #ffffff;
+    width: 290px;
+    height: 360px;
+    border-radius: 4px;
+}
+
+.section-dashboard h1,
+.section-visitors h1,
+.section-courses h1 {
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 1px solid #f4f4f4;
+    padding: 25px 0px 20px 0px;
+    margin: 0px 30px;
+}
+
+.section-dashboard>h1 a,
+{
+color: #0275B1;
+padding-left: 27px;
+}
+
+.section-dashboard>div h2 {
+    font-size: 52px;
+    font-weight: 600;
+    color: #0275B1;
+    padding: 20px 30px 0px 30px;
+}
+
+.section-dashboard>div p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #181818;
+    padding-left: 30px;
+}
+
+/* DASHBOARD */
+
+/* VISITORS */
+.section-visitors {
+    background-color: #ffffff;
+    width: 290px;
+    height: 427px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.section-visitors>h1 a {
+    color: #0275B1;
+    padding-left: 109px;
+}
+
+.section-visitors>div {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px 0px 30px;
+}
+
+.section-visitors>div h3 {
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+.section-visitors>div a {
+    font-size: 10px;
+    padding: 5px 0px 0px 15px;
+}
+
+/* VISITORS */
+
+/* COURSES */
+.section-courses {
+    background-color: #ffffff;
+    width: 290px;
+    height: 338px;
+    margin-top: 20px;
+}
+
+.section-courses>div {
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.section-courses>div img {
+    border-radius: 4px;
+}
+
+.section-courses>div>div h3 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    padding-left: 15px;
+}
+
+.section-courses>div>div a {
+    font-size: 10px;
+    padding: 5px 15px;
+}
+
+/* COURSES */
+
 
 
 /* .coluna-1 {
