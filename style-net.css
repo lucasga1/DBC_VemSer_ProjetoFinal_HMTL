@@ -51,6 +51,20 @@
     border: 1px solid black;
 }
 
+.section-perfil-article>img {
+    max-width: 100%;
+}
+
+.section-perfil-article>div {
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-perfil-article>h3 {
+    text-align: center;
+}
+
 /* PERFIL ASIDE */
 
 /* NEW ARTICLE*/
