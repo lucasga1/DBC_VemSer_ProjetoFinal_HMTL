@@ -183,26 +183,70 @@ main {
     justify-content: space-between;
 }
 
+.section-capa-home,
+.section-about,
+.section-projects,
+.section-skill,
+.section-experience,
+.section-education,
+.section-dashboard,
+.section-visitors,
+.section-courses {
+    background-color: #ffffff;
+    box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+    border-radius: 4px;
+    width: 850px;
+}
 
 /* SECTION CAPA HOME */
 .section-capa-home {
-    background-color: #ffffff;
-    width: 850px;
     height: 360px;
     display: flex;
     flex-direction: column;
-
 }
 
+.section-capa-home img {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
 .section-capa-home>div {
     display: flex;
     align-items: center;
 }
 
-.section-capa-home>div>img {
+.section-capa-home>div>div img {
     margin-top: -20px;
     margin-left: 25px;
     border-radius: 100%;
+}
+
+.photo-capa-button {
+    position: absolute;
+    margin-top: -125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 850px;
+}
+
+.photo-capa-button>button {
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 10px 30px rgba(113, 123, 133, 0.05);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin: 0px 30px;
+    width: 36px;
+    height: 36px;
+    border: none;
+}
+
+.photo-capa-button>div>button {
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 10px 30px rgba(113, 123, 133, 0.05);
+    border-radius: 4px;
+    width: auto;
+    border: none;
 }
 
 .section-capa-home>div>div h3 {
@@ -276,8 +320,6 @@ main {
 
 /* ABAS */
 .section-about {
-    background-color: #ffffff;
-    width: 850px;
     height: 200px;
 }
 
@@ -300,8 +342,6 @@ main {
 
 /* SECTION PROJECTS */
 .section-projects {
-    background-color: #ffffff;
-    width: 850px;
     height: 355px;
     margin-top: 20px;
 }
@@ -309,7 +349,7 @@ main {
 .section-projects h3,
 .section-skill h3,
 .section-experience h3,
-.section-education h3 {
+.section-education h3 {    
     font-size: 18px;
     font-weight: 700;
     padding: 30px 0px 25px 30px;
@@ -348,8 +388,6 @@ main {
 /* SECTION SKILLS */
 
 .section-skill {
-    background-color: #ffffff;
-    width: 850px;
     height: 220px;
     margin-top: 20px;
 }
@@ -366,6 +404,7 @@ main {
     background: #FFFFFF;
     border: 1px solid #F4F4F4;
     border-radius: 6px;
+    cursor: pointer;
 }
 
 .section-skill>div>div h4 {
@@ -386,15 +425,7 @@ main {
 /* SECTION SKILLS */
 
 /* EXPERIENCE */
-.section.experience {
-    width: 850px;
-    height: 345px;
-}
-
-/* EXPERIENCE */
 .section-experience {
-    background-color: #ffffff;
-    width: 850px;
     height: 345px;
     margin-top: 20px;
 }
@@ -409,6 +440,7 @@ main {
     font-size: 14px;
     font-weight: 600;
     padding: 0px 0px 10px 16px;
+    cursor: pointer;
 }
 
 .exp-text1,
@@ -444,8 +476,6 @@ main {
 
 /* SECTION EDUCATION */
 .section-education {
-    background-color: #ffffff;
-    width: 850px;
     height: 195px;
     margin-top: 20px;
 }
@@ -467,7 +497,6 @@ main {
 
 /* DASHBOARD */
 .section-dashboard {
-    background-color: #ffffff;
     width: 290px;
     height: 360px;
     border-radius: 4px;
@@ -484,10 +513,9 @@ main {
     margin: 0px 30px;
 }
 
-.section-dashboard>h1 a,
-{
-color: #0275B1;
-padding-left: 27px;
+.section-dashboard>h1 a {
+    color: #0275B1;
+    padding-left: 27px;
 }
 
 .section-dashboard>div h2 {
@@ -508,7 +536,6 @@ padding-left: 27px;
 
 /* VISITORS */
 .section-visitors {
-    background-color: #ffffff;
     width: 290px;
     height: 427px;
     margin-top: 20px;
@@ -541,7 +568,6 @@ padding-left: 27px;
 
 /* COURSES */
 .section-courses {
-    background-color: #ffffff;
     width: 290px;
     height: 338px;
     margin-top: 20px;
@@ -568,84 +594,23 @@ padding-left: 27px;
     font-size: 10px;
     padding: 5px 15px;
 }
-
 /* COURSES */
-
-
-
-/* .coluna-1 {
-    width: 70%;
-}
-
-.coluna-2 {
-    width: 30%;
-}
-
-.coluna-1 div,
-.coluna-2 div {    
-    background-color: white;
-    margin-top: 0;
-    font-size: 14px;
-    line-height: 30px;
-    border-radius: 4px;
-}
- */
-.text {
-    flex-direction: column;
-}
-
-.display-flex-row {
-    flex-direction: row;
-    align-items: center;
-}
-
-.display-flex-column {
-    flex-direction: column;
-}
-
-.section-titulo h3 {
-    font-size: 18px !important;
-    font-weight: 600;
-}
-
-.section-about {
-    width: 850px;
-    height: 200px;
-
-}
-
-.section p,
-.section span,
-.section label {
-    font-size: 13px !important;
-}
-
-.section strong {
-    font-size: 15px !important;
-}
-
-.coluna-2 {
-    min-width: 290px;
-}
-
-.coluna-1 {
-    min-width: 850px;
-}
 
 hr {
     box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 1%);
     width: 94%;
     border-top: 1px;
-}
+} 
 
 .link {
     text-transform: uppercase;
     font-weight: 600;
     color: #0275B1;
+    cursor: pointer;
 }
 
-
 /* MAIN */
+
 /* FOOTER */
 footer {
     background-color: #F7F9FB;

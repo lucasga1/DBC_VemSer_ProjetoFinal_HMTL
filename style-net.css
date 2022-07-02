@@ -1,0 +1,90 @@
+/* NEW POST */
+.section-newpost {
+    background-color: #ffffff;
+    width: 850px;
+    height: 135px;
+    border: 1px solid black;
+}
+/* NEW POST */
+
+/* PUBLICACAO 1 */
+.section-publicacao1,
+.section-publicacao2,
+.section-publicacao3,
+.section-publicacao4 {
+    background-color: #ffffff;
+    margin-top: 20px;
+    width: 850px;
+    height: 285px;
+    border: 1px solid black;
+}
+
+/* PUBLICACAO 1 */
+
+/* PUBLICACAO 2 */
+.section-publicacao2 {
+    height: 532px;
+}
+
+/* PUBLICACAO 2 */
+
+/* PUBLICACAO 3 */
+.section-publicacao3 {
+    height: 402px;
+}
+
+/* PUBLICACAO 3 */
+
+/* PUBLICACAO 4 */
+.section-publicacao4 {
+    height: 259px;
+}
+
+/* PUBLICACAO 4 */
+
+/* ASIDE */
+/* PERFIL ASIDE */
+.section-perfil-article {
+    background-color: #ffffff;
+    width: 290px;
+    height: 280px;
+    border: 1px solid black;
+}
+
+/* PERFIL ASIDE */
+
+/* NEW ARTICLE*/
+.section-new-article,
+.section-mygroup,
+.section-followed,
+.section-trendings {
+    background-color: #ffffff;
+    margin-top: 20px;
+    width: 290px;
+    height: 75px;
+    border: 1px solid black;
+}
+
+/* NEW ARTICLE*/
+
+/* MY GROUPS */
+.section-mygroup {
+    height: 400px;
+}
+
+/* MY GROUPS */
+
+/* FOLLOWED */
+.section-followed {
+    height: 265px;
+}
+
+/* FOLLOWED */
+
+/* TRENDINGS */
+.section-trendings {
+    height: 300px;
+}
+
+/* TRENDINGS */
+/* ASIDE */
