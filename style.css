@@ -205,16 +205,12 @@ main {
     flex-direction: column;
 }
 
-.section-capa-home img {
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-}
 .section-capa-home>div {
     display: flex;
     align-items: center;
 }
 
-.section-capa-home>div>div img {
+.photo-perfil-capa>img {
     margin-top: -20px;
     margin-left: 25px;
     border-radius: 100%;
@@ -671,6 +667,10 @@ footer h3 {
 footer button {
     margin: 5px 0;
     padding: 0 15px;
+}
+
+.bg-transparent {
+    background: transparent;
 }
 
 footer select {
