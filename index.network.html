@@ -16,10 +16,10 @@
     <header>
         <div class="container">
             <div>
-                <img class="header-logo" src="./images/LogoLinkedIn.png" alt="logo">
+                <a href="index.html"><img class="header-logo" src="./images/LogoLinkedIn.png" alt="logo"></a>
                 <nav>
                     <ul>
-                        <li><img width="24px" src="./images/feed.png" alt="other"><a href="#">FEED</a></li>
+                        <li class="feed-network"><img width="24px" src="./images/feed.png" alt="other"><a href="./index.network.html">FEED</a></li>
                         <li><img width="24px" src="./images/network.png" alt="other"><a href="#">NETWORK</a></li>
                         <li><img width="24px" src="./images/jobs.png" alt="other"><a href="#">JOBS</a></li>
                         <li><img width="24px" src="./images/chat.png" alt="other"><a href="#">CHAT</a></li>
@@ -52,7 +52,7 @@
                     <h1>NEW POST</h1>
                     <div>
                         <div>
-                            <p>What’s on your mind?</p>
+                            <input type="newpost" name="newpost" id="newpost" placeholder="What’s on your mind?">
                         </div>
                         <div>
                             <img src="./images/network/paperclip.png" alt="">
@@ -63,13 +63,81 @@
                     </div>
                 </div>
                 <div class="section-sortby">
-                    <h1>SORT BY:<p>TRENDING</p><img src="./images/network/seta-para-baixo.png" alt=""></h1>
+                    <svg width="332" height="1" viewBox="0 0 332 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="0.5" x2="312" y2="0.5" stroke="#e3e3e3"/>
+                        </svg>
+                         <h1>SORT BY: <p>TRENDING</p><img src="./images/network/seta-para-baixo.png" alt=""></h1><svg width="332" height="1" viewBox="0 0 300 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line y1="0.5" x2="312" y2="0.5" stroke="#e3e3e3"/>
+                            </svg>
                 </div>
-                <div class="section-publicacao1"></div>
-                <div class="section-publicacao2"></div>
+                <div class="section-publicacao1">
+                    <h1>Ted Bell, Annette Nguyen <p>and</p> Cody Hawkins <p>liked this</p><img width="24" height="24"
+                            src="./images/network/icon-configuracao.png"></h1>
+                    <div>
+                        <img src="./images/network/theresa-steward.png" alt="theresa-steward">
+                        <div>
+                            <strong>Theresa Steward</strong>
+                            <p>iOS developer</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p>What did the Dursleys care if Harry lost his place on the House Quidditch team because he
+                            hadn’t practiced all summer? What was it to the Dursleys if Harry went back to school
+                            without any of his homework done? The Dursleys were what wizards called Muggles (not a drop
+                            of magical blood in their veins).</p>
+                    </div>
+                    <a class="link">See more</a>
+
+                    <nav class="like-bar">
+                        <div>
+                            <div class="border-right">
+                                <a href="#"><img src="./images/network/icon-like-without.png" alt="like">42</a>
+                            </div>
+                            <div class="border-right">
+                                <a href="#"><img src="./images/network/icon-comment-without.png" alt="comment">9</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="border-left">
+                                <a href="#"><img src="./images/network/icon-share.png" alt="share">SHARE</a>
+                            </div>
+                        </div>
+                    </nav>
+
+                </div>
+                <div class="section-publicacao2">
+                    <h1>
+                        <p>Audrey Alexander</p>comment this<img width="24" height="24"
+                            src="./images/network/icon-configuracao.png">
+                    </h1>
+                    <div>
+                        <img src="./images/network/kyle-fisher.png" alt="kyle-fisher">
+                        <div>
+                            <strong>Kyle Fisher</strong>
+                            <p>Product designer at Commandor Corp.</p>
+                        </div>
+                    </div>
+                    <p>How’s your day going, guys?</p>
+                    <img src="./images/network/postagem-kyle-fisher.png" alt="postKyle">
+                    <nav class="like-bar">
+                        <div>
+                            <div class="border-right">
+                                <a href="#"><img src="./images/network/like-blue.png" alt="like">42</a>
+                            </div>
+                            <div class="border-right">
+                                <a href="#"><img src="./images/network/icon-comment-without.png" alt="comment">9</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="border-left">
+                                <a href="#"><img src="./images/network/icon-share.png" alt="share">SHARE</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
                 <div class="section-publicacao3">
-                    <span>High rated post from your feed<img width="24" height="24"
-                            src="./images/network/icon-configuracao.png"></span>
+                    <h1>High rated post from your feed<img width="24" height="24"
+                            src="./images/network/icon-configuracao.png"></h1>
 
                     <div>
                         <img src="./images/network/brandon-wilson.png" alt="brandon-wilson">
@@ -96,29 +164,25 @@
                             <img src="./images/network/icon-comment-without.png" alt="">
                         </div>
                     </section>
-                    <div class="section-publicacao3-footer">
-                        <div class="group-actions3">
-                            <div>
-                                <img width="16" height="16" src="./images/network/icon-like-without.png"><a>10</a>
-
+                    <nav class="like-bar">
+                        <div>
+                            <div class="border-right">
+                                <a href="#"><img src="./images/network/like-blue.png" alt="like">89</a>
                             </div>
-                            <div>
-                                <img width="16" height="16" src="./images/network/icon-comment-without.png">
-                                <a>0</a>
+                            <div class="border-right">
+                                <a href="#"><img src="./images/network/comment-blue.png" alt="comment">7</a>
                             </div>
                         </div>
                         <div>
-                            <img width="16" src="./images/network/icon-share.png">
-                            <a>SHARE</a>
+                            <div class="border-left">
+                                <a href="#"><img src="./images/network/icon-share.png" alt="share">SHARE</a>
+                            </div>
                         </div>
-                    </div>
-                </div>
+                    </nav>
 
+                </div>
                 <div class="section-publicacao4">
-                    <div>
-                        <p>First post from <span>Audrey Alexander</span></p>
-                        <img width="24" height="24" src="./images/network/icon-configuracao.png">
-                    </div>
+                    <h1>First post from<p>Audrey Alexander</p><img width="24" height="24"src="./images/network/icon-configuracao.png"></h1>
                     <div class="section-publicacao4-conteudo">
                         <div class="perfil-publicacao">
                             <img width="52" height="52" src="./images/network/audrey-alexander.png">
@@ -133,22 +197,21 @@
                             the hare. And I can run away from you, grey wolf!» says the bun and runs away.
                         </p>
                     </div>
-                    <div class="section-publicacao4-footer">
-                        <div class="group-actions4">
-                            <div>
-                                <img width="16" height="16" src="./images/network/icon-like-without.png">
-                                <a>10</a>
+                    <nav class="like-bar">
+                        <div>
+                            <div class="border-right">
+                                <a href="#"><img src="./images/network/icon-like-without.png" alt="like">10</a>
                             </div>
-                            <div>
-                                <img width="16" height="16" src="./images/network/icon-comment-without.png">
-                                <a>0</a>
+                            <div class="border-right">
+                                <a href="#"><img src="./images/network/icon-comment-without.png" alt="comment">0</a>
                             </div>
                         </div>
                         <div>
-                            <img width="16" src="./images/network/icon-share.png">
-                            <a>SHARE</a>
+                            <div class="border-left">
+                                <a href="#"><img src="./images/network/icon-share.png" alt="share">SHARE</a>
+                            </div>
                         </div>
-                    </div>
+                    </nav>
                 </div>
             </div>
             <aside>
@@ -173,7 +236,7 @@
                         <p>Freelance UX/UI designer, 80+ projects in web design, mobile apps (iOS & android) and
                             creative projects. Open to offers.</p>
                     </div>
-                </div>                
+                </div>
                 <div class="section-new-article"></div>
                 <div class="section-mygroup"></div>
                 <div class="section-followed"></div>

@@ -105,19 +105,23 @@ header nav ul li a {
 }
 
 header input {
-    width: 367px;
-    height: 78px;
-    margin: auto 0;
+    width: 337px;
+    height: 48px;
     border-top: 0;
     border-bottom: 0;
     border-left: 1px solid #f4f4f4;
     border-right: 1px solid #f4f4f4;
+    padding: 15px;
+}
+
+header input:focus {
+    outline: none;
 }
 
 header input::placeholder {
-    color: #CECECE;
+    color: #cecece;
     font-size: 16px;
-    padding-left: 74px;
+    padding-left: 54px;
 }
 
 .nav-user-perfil {
@@ -170,11 +174,9 @@ header input::placeholder {
 
 /* HEADER */
 /* MAIN */
-main,
-html,
-body {
-    background-color: #F7F9FB;
 
+body{
+    background-color: #f6f6f6;
 }
 
 main {
@@ -191,7 +193,13 @@ main {
 .section-education,
 .section-dashboard,
 .section-visitors,
-.section-courses {
+.section-courses,
+.section-newpost,
+.section-publicacao1,
+.section-publicacao2,
+.section-publicacao3,
+.section-publicacao4,
+.section-perfil-article {
     background-color: #ffffff;
     box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
     border-radius: 4px;
@@ -231,10 +239,17 @@ main {
     border-radius: 4px;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: 0px 30px;
     width: 36px;
     height: 36px;
     border: none;
+}
+
+.photo-capa-button>div>button a {
+    color: #181818;
+    padding-left: 10px;
+    cursor: pointer;
 }
 
 .photo-capa-button>div>button {
@@ -345,7 +360,7 @@ main {
 .section-projects h3,
 .section-skill h3,
 .section-experience h3,
-.section-education h3 {    
+.section-education h3 {
     font-size: 18px;
     font-weight: 700;
     padding: 30px 0px 25px 30px;
@@ -590,13 +605,14 @@ main {
     font-size: 10px;
     padding: 5px 15px;
 }
+
 /* COURSES */
 
 hr {
     box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 1%);
     width: 94%;
     border-top: 1px;
-} 
+}
 
 .link {
     text-transform: uppercase;
@@ -610,6 +626,7 @@ hr {
 /* FOOTER */
 footer {
     background-color: #F7F9FB;
+    margin-top: 40px;
 }
 
 footer>div {
