@@ -13,6 +13,18 @@ strong {
     margin: auto;
 }
 
+.notification{
+    position: absolute;
+    left: 442px;
+    top: 9px;
+}
+
+.lupa {
+    position: absolute;
+    left: 610px;
+    top: 31px;
+}
+
 /* Buttons class */
 button {
     border-radius: 4px;
