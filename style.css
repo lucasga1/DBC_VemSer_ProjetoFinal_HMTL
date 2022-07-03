@@ -13,16 +13,16 @@ strong {
     margin: auto;
 }
 
-.notification{
-    position: absolute;
-    left: 442px;
-    top: 9px;
+.notification {
+    position: relative;
+    left: 10px;
+    bottom: 55px;
 }
 
 .lupa {
-    position: absolute;
-    left: 610px;
-    top: 31px;
+    position: relative;
+    left: 50px;
+    top: 30px;
 }
 
 /* Buttons class */
