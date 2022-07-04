@@ -116,6 +116,10 @@ header nav ul li a {
     color: #181818;
 }
 
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
 header input {
     width: 337px;
     height: 48px;
@@ -324,6 +328,11 @@ main {
     border-radius: 4px 4px 0px 0px;
 }
 
+.aba-1:hover{
+    background: #cecece;
+    color: #0275B1;
+}
+
 .aba-2 {
     display: flex;
     justify-content: center;
@@ -335,6 +344,11 @@ main {
     border: 1px solid #E7E7E7;
     width: 240px;
     height: 40px;
+}
+
+.aba-2:hover {
+    background: #0275B1;
+    color: #f4f4f4;
 }
 
 .aba-3 {
@@ -548,6 +562,10 @@ main {
     padding: 20px 30px 0px 30px;
 }
 
+.section-dashboard>div h2 {
+    cursor: pointer;
+}
+
 .section-dashboard>div p {
     font-size: 14px;
     font-weight: 300;
@@ -633,6 +651,9 @@ hr {
     cursor: pointer;
 }
 
+.link:hover {
+    text-decoration: underline;
+}
 /* MAIN */
 
 /* FOOTER */

@@ -430,16 +430,20 @@ h4 {
      border-radius: 5px;
      background: linear-gradient(#0275B1, #0E6795);
      color: white;
-     border: none
+     border: none;
+     cursor: pointer;
+}
+
+.button-article:hover {
+    background: #F4F4F4;
+    color: #0275B1;
 }
 
 .section-new-article {
     border: none;
     display: flex;
 }
-/* NEW ARTICLE*/
-    
-  
+/* NEW ARTICLE*/ 
 
 /* MY GROUPS */
 .section-mygroup {
@@ -529,6 +533,7 @@ h4 {
     border-radius: 5px;
     margin: 0px 5px;
     font-size: 12px;
+    cursor: pointer;
 }
 
 /* FOLLOWED */
@@ -589,6 +594,4 @@ h4 {
     height: 62px;
 }
 /* TRENDINGS */
-
-
 /* ASIDE */
